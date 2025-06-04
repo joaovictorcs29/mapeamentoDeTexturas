@@ -1,0 +1,288 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "_deps/glfw-build",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glfw-build-Debug-ce8c7f56555a15c4ae04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/glfw-src",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/glfw-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-f5c5fef6093286bec317.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/glfw-src/src",
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"build" : "_deps/glfw-build/docs",
+					"jsonFile" : "directory-_deps.glfw-build.docs-Debug-2a9a68e502908e73230e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/glfw-src/docs"
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-_deps.glm-build-Debug-935468e39a55af38ff33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glm-src"
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-Debug-ae6a6ae02e317224d57b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glm-src/glm",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PGCCHIB",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex1Parte1M2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex1Parte1M2-Debug-b3130bb82d65fc745f46.json",
+					"name" : "Ex1Parte1M2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex1Parte2M2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex1Parte2M2-Debug-7b48d6cbd0ceed7631e1.json",
+					"name" : "Ex1Parte2M2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "M3JogoCores::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-M3JogoCores-Debug-469da27de841b1b57de9.json",
+					"name" : "M3JogoCores",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo_00::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo_00-Debug-f4d5ba8f6c36c8c7b2db.json",
+					"name" : "exemplo_00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo_01-Debug-550e44211b0e1e7d7eb4.json",
+					"name" : "exemplo_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo_02-Debug-3a75c4d274e120485b25.json",
+					"name" : "exemplo_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo_03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo_03-Debug-55baec7d472ede61a0aa.json",
+					"name" : "exemplo_03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo_04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo_04-Debug-77667ec3797778288ee4.json",
+					"name" : "exemplo_04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@fa9f4482d3a2b070f206",
+					"jsonFile" : "target-glfw-Debug-ce68c1e17c53036880e3.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glm::@ce54d98d7b326a3e12a8",
+					"jsonFile" : "target-glm-Debug-b4ef32d0b36babc1f2f7.json",
+					"name" : "glm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jogoDasCores::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jogoDasCores-Debug-61af7f18bd8f7f9aa5b3.json",
+					"name" : "jogoDasCores",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-a026766475e1158b1bbb.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@369fad943889a5ec39c8",
+					"jsonFile" : "target-uninstall-Debug-008678fee98e60479529.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@fa9f4482d3a2b070f206",
+					"jsonFile" : "target-update_mappings-Debug-2c717f0c41a16d189b92.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/joaov/Documents/processamentoGrafico3/build",
+		"source" : "C:/Users/joaov/Documents/processamentoGrafico3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
